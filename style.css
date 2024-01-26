@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@400;500;700&display=swap');
+
+/* GENERAL */ 
+
+:root {
+    --primary1:#CDA274;
+    --primary2:#292F36;
+    --primary3:#4D5053;
+    --primary4:#F4F0EC;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    color: var(--primary2);
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    color: var(--primary2);
+    font-size: 2rem;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    color: var(--primary2);
+    font-size: 1.2rem;
+}
+
+p {
+    color: var(--primary3);
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.itemsCenter{
+    align-items: center;
+}
+.paddings {
+    padding: 10% 15% 10% 15%;
+}
+
+button {
+    padding: 10px;
+    display: block;
+    background-color: var(--primary2);
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15%;
+    border: none;
+}
+
+
+/* HEADER */
+
+header {
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0 15% 0 15%;
+}
+
+header img {
+    width: 15%;
+}
+
+header nav {
+    width: 40%;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(assets/banniere.png);
+    background-size: cover;
+    height: 90vh;
+    border-radius: 0 0 0 200px;
+}
+
+.hero div {
+    width: 40%;
+    margin-left: 15%;
+}
+
+/* ABOUT */
+.about div {
+    width: 26%;
+    text-align: center;
+}
+
+/* CONTACT */ 
+
+.contactLeft{
+    width: 30%;
+}
+
+.contact img {
+    width: 40%;
+    border-radius: 0 150px 0 50px;
+}
+
+address {
+    margin-top: 30px;
+}
+.iconTel {
+    background-color: var(--primary4);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    color: var(--primary1);
+}
+
+.address div a :visited, :link, :active {
+    color:var(--primary2);
+}
+
+
+
+/* AVIS */
+.containerAvis{
+    width: 100%;
+    background-color: var(--primary4);
+    margin: auto;
+    border-radius: 20px;
+    padding: 5% ;
+}
+
+.containerAvis h2 {
+    text-align: center;
+}
+.card{
+    width: 20%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 20px;
+    margin-top: 5%;
+    align-content: space-between;
+}
+
+.card img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.card div {
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+.card div span {
+    font-weight: 700;
+    color: var(--primary2);
+    font-family: 'DM Serif Display', serif;
+}
+
+
+/* PARTENAIRES */ 
+
+.partenaires a {
+    width: 10%;
+}
+
+.partenaires a img {width: 100%;}
+
+/* PROJETS */ 
+
